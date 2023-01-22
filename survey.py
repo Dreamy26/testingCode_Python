@@ -6,3 +6,7 @@ def __init__(self, question):
     self.question = question
     self.responses = []
     
+def show_question(self):
+    """Show the survey question"""
+    print (self.question)
+    
